@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
-  // Smooth scroll function
+  
   const handleScroll = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
-        {/* Name / Logo */}
+        
         <h2 className="text-xl font-semibold text-purple-500">Deepanjali Singh</h2>
 
-        {/* Navigation Links - Responsive */}
+        
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
           {[
             { name: "About", id: "about" },
@@ -35,12 +35,12 @@ const Footer = () => {
           ))}
         </nav>
 
-        {/* Social Media Icons - Responsive */}
+        
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             { icon: <FaGithub />, link: "https://github.com/deepanjali1206" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/deepanjali-singh-a6086728b/" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/kd_techverse/" },
+          
           ].map((item, index) => (
             <a
               key={index}
@@ -54,7 +54,7 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Copyright Text */}
+        
         <p className="text-sm text-gray-400 mt-6">
           © 2025 Deepanjali Singh. All rights reserved.
         </p>

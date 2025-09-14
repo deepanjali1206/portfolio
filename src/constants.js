@@ -26,16 +26,14 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import mcLogo from './assets/tech_logo/mc.png'
 
-// Experience Section Logo's
+
 import internpeLogo from './assets/company_logo/internpe.jpeg';
 
 
-// Education Section Logo's
+
 import glaLogo from './assets/education_logo/gla_logo.png';
 import school from './assets/education_logo/school.jpeg';
 
-
-// Project Section Logo's
 
 import crm from './assets/work_logo/crm.png';
 import donation from './assets/work_logo/donation.jpg'
@@ -163,7 +161,7 @@ export const experiences = [
     description:
       "Built a helpdesk tool for managing customer queries with ticket creation, status tracking, and priority levels. Designed a clean, responsive UI for efficient customer support workflows.",
     image: crm, 
-    tags: ["React.js", "Bootstrap", "Node.js", "Express.js", "MongoDB", "UI/UX Design"],
+    tags: ["React.js", "Bootstrap", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/deepanjali1206/CRM-Ticket-System.git", 
     webapp: "#",
   },
@@ -173,7 +171,7 @@ export const experiences = [
     description:
       "Developed a secure donation platform with donor registration, donation tracking, and a user-friendly dashboard. Ensured smooth and secure donation process for users.",
     image: donation, 
-    tags: ["React.js","Vue.js", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Dashboard Design"],
+    tags: ["React.js","Vue.js", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Razorpay"],
     github: "https://github.com/deepanjali1206/Donation_platform.git", 
     webapp: "#", 
   },
